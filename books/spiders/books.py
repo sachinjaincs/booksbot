@@ -6,7 +6,7 @@ class BooksSpider(scrapy.Spider):
     name = "books"
     allowed_domains = ["sapnaonline.com"]
     start_urls = [
-        'http:/www.sapnaonline.com/books',
+        'http:/www.sapnaonline.com',
     ]
 
     def parse(self, response):
