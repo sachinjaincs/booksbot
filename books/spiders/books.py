@@ -4,9 +4,9 @@ import scrapy
 
 class BooksSpider(scrapy.Spider):
     name = "books"
-    allowed_domains = ["books.toscrape.com"]
+    allowed_domains = ["sapnaonline.com"]
     start_urls = [
-        'http://books.toscrape.com/',
+        'http:/www.sapnaonline.com/books',
     ]
 
     def parse(self, response):
